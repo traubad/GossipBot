@@ -99,7 +99,13 @@ const listeners = {};
 
 //sets up authenticatedUsers
 fs.readFile('.users', function(err, data) {
-    if(err) throw err;
+    if(err){
+      fs.open('.users','w', function(err, file){
+        if(err) throw err;
+        console.log(".users file created");
+      });
+      data = "";
+    };
     controller.authenticatedUsers = data.toString().split("\n");
 });
 

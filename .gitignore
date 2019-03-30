@@ -63,3 +63,4 @@ typings/
 # private info
 gossipKEY.json
 db_slack_bot_a/*/
+.users

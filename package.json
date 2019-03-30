@@ -1,7 +1,7 @@
 {
-  "name": "SlackGossip",
+  "name": "GossipBot",
   "version": "1.0.0",
-  "description": "This bot is a gossip that will broadcast to flink from Slack",
+  "description": "This bot is a gossip that will broadcast to an open port",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DEGoodmanWilson/easy-peasy-bot-app.git"
+    "url": "git+https://github.com/traubad/GossipBot.git"
   },
   "keywords": [
     "slack",
     "bot"
   ],
-  "author": "D.E. Goodman-Wilson",
+  "author": "Adam D Traub",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DEGoodmanWilson/easy-peasy-bot-app/issues"
+    "url": "https://github.com/traubad/GossipBot.git/issues"
   },
-  "homepage": "https://github.com/DEGoodmanWilson/easy-peasy-bot-app#readme",
+  "homepage": "https://github.com/traubad/GossipBot#readme",
   "engines": {
     "node": "5.1.1"
   },
