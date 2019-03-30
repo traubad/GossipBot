@@ -1,3 +1,10 @@
+# Gossip Bot
+## A simple Slack bot for broadasting chat data
+
+Built on top of easy-peasy-bot, GossipBot was initially designed to broadcast all messages on a slack channel onto an open port.  That port could the be hooked into using a third party application (such as an application that can perform Sentiment analysis on Streaming data https://github.com/traubad/FlinkSentimentAnalysis/tree/master/src/main ). 
+There may be more opportunity to use this application for future research, so I've made it open source.  Please use it responsibly.
+
+
 # easy-peasy-bot
 
 ## The story of a (Slack)bot
